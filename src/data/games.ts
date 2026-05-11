@@ -51,109 +51,30 @@ export const games: Game[] = [
   //   ]
   // },
   {
-    id: 'gwan-sang',
-    title: '관상 퀴즈',
-    description: '',
-    kind: 'choice',
-    rules: [
-      'A/B 선택형 문제입니다.',
-      '답은 현장에서 선택한 후 공개합니다.',
-    ],
-    scoreIncrement: 1,
-    questions: [
-      {
-        id: 'gwan-sang-1',
-        prompt: '이 사람이 사용하는 운영체제는?',
-        answer: 'WINDOW',
-        choices: ['WINDOW', 'MAC'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-2',
-        prompt: '이 사람이 집순이인가?',
-        answer: 'YES',
-        choices: ['YES', 'NO'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-3',
-        prompt: '이 사람이 더 선호하는 영화 장르는?',
-        answer: '로맨스',
-        choices: ['로맨스', '공포'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-4',
-        prompt: '이 사람이 더 좋아하는 음식은?',
-        answer: '마라탕',
-        choices: ['마라탕', '떡볶이'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-5',
-        prompt: '이 사람은 복수 전공을 하고 있을까요? (예정이어도 YES)',
-        answer: 'YES',
-        choices: ['YES', 'NO'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-6',
-        prompt: '이 사람의 음악 취향은?',
-        answer: 'KPOP',
-        choices: ['KPOP', '밴드'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-7',
-        prompt: '이 사람이 좋아할 것 같은 반려동물은?',
-        answer: '강아지',
-        choices: ['강아지', '고양이'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-8',
-        prompt: '이 사람이 좋아할 것 같은 계절은?',
-        answer: '여름',
-        choices: ['여름', '겨울'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-9',
-        prompt: '이 사람의 여행 스타일은?',
-        answer: '휴양',
-        choices: ['휴양', '관광'],
-        type: 'choice'
-      },
-      {
-        id: 'gwan-sang-10',
-        prompt: '이 사람의 MBTI는 무엇으로 시작할까요?',
-        answer: 'E',
-        choices: ['E', 'I'],
-        type: 'choice'
-      }
-    ]
-  },
-  {
     id: 'song-quiz',
     title: '노래 퀴즈',
-    description: '연도별',
+    description: '',
     kind: 'song',
     rules: [
-      '노래를 잘 듣고 맞춰보세요!',
-      '*짧게 들려줌 주의',
+      '노래가 들리면 팀이름을 외치고 노래 제목을 맞히면 성공!!'
+
     ],
     scoreIncrement: 1,
     questions: [
-      { id: 'song-1', prompt: '2010년대 Round 1', answer: 'Placeholder song answer 1'},
-      { id: 'song-2', prompt: '2010년대 Round 2', answer: 'Placeholder song answer 2' },
-      { id: 'song-3', prompt: '2010년대 Round 3', answer: 'Placeholder song answer 3' },
-      { id: 'song-4', prompt: '2010년대 Round 4', answer: 'Placeholder song answer 4' },
-      { id: 'song-5', prompt: '2010년대 Round 5', answer: 'Placeholder song answer 5' },
-      { id: 'song-6', prompt: '2020년대 Round 1', answer: 'Placeholder song answer 6' },
-      { id: 'song-7', prompt: '2020년대 Round 2', answer: 'Placeholder song answer 7' },
-      { id: 'song-8', prompt: '2020년대 Round 3', answer: 'Placeholder song answer 8'},
-      { id: 'song-9', prompt: '2020년대 Round 4', answer: 'Placeholder song answer 9' },
-      { id: 'song-10', prompt: '2020년대 Round 5', answer: 'Placeholder song answer 10' }
+      { id: 'song-1', prompt: 'Round 1', answer: { image: '/songs/mamamoo.jpg', title: '마마무-데칼코마니' } },
+      { id: 'song-2', prompt: 'Round 2', answer: { image: '/songs/twice.jpg', title: '트와이스-Cheer Up' } },
+      { id: 'song-3', prompt: 'Round 3', answer: { image: '/songs/parkhyoshin.jpg', title: '박효신-야생화' } },
+      { id: 'song-4', prompt: 'Round 6', answer: { image: '/songs/ive.jpg', title: 'IVE-I AM' } },
+      { id: 'song-5', prompt: 'Round 7', answer: { image: '/songs/aespa.jpg', title: 'aespa-Spicy' } },
+      { id: 'song-6', prompt: 'Round 13', answer: { image: '/songs/nmixx.png', title: 'NMIXX-Blue Valentine' } },
+      { id: 'song-7', prompt: 'Round 4', answer: { image: '/songs/iu.jpg', title: 'IU-Palette' } },
+      { id: 'song-8', prompt: 'Round 5', answer: { image: '/songs/blackpink.png', title: '블랙핑크-뚜두뚜두' } },
+      { id: 'song-9', prompt: 'Round 8', answer: { image: '/songs/idle.webp', title: '아이들-TomBoy' } },
+      { id: 'song-10', prompt: 'Round 9', answer: { image: '/songs/seventeen.jpg', title: '세븐틴-손오공' } },
+      { id: 'song-11', prompt: 'Round 10', answer: { image: '/songs/jungkook.jpeg', title: '정국-Seven' } },
+      { id: 'song-12', prompt: 'Round 11', answer: { image: '/songs/melomance.png', title: '멜로망스-사랑인가봐' } },
+      { id: 'song-13', prompt: 'Round 12', answer: { image: '/songs/illit.png', title: 'ILLIT-Not Cute Anymore' } },
+      { id: 'song-14', prompt: 'Round 14', answer: { image: '/songs/jeonsomi.png', title: '전소미-Dumb Dumb' } },
     ]
   },
   {
@@ -162,9 +83,8 @@ export const games: Game[] = [
     description: '로고를 보고 무엇인지 맞춰봐요.',
     kind: 'logo',
     rules: [
-      '로고를 보고 브랜드를 맞히세요.',
-      '답은 Reveal 버튼을 눌러 공개합니다.',
-      '이미지는 문제 페이지에서 바로 표시됩니다.'
+      '화면에 로고가 뜨면 팀이름을 외치고 브랜드 이름을 맞히면 성공!!'
+
     ],
     scoreIncrement: 1,
     questions: [
@@ -185,13 +105,11 @@ export const games: Game[] = [
   },
   {
     id: 'initial-consonant',
-    title: '초성 게임',
-    description: '초성을 보고 영화/드라마 제목을 맞춰줘.',
+    title: '초성퀴즈',
+    description: '영화/드라마 편',
     kind: 'initial',
     rules: [
-      '초성을 보고 영화/드라마 제목을 맞히세요.',
-      '정답 공개는 Reveal 버튼을 사용합니다.',
-      '정답은 호스트가 직접 확인해주세요.'
+      '화면에 초성이 뜨면 팀이름을 외치고 영화/드라마 제목을 맞히면 성공!!'
     ],
     scoreIncrement: 1,
     questions: [
@@ -208,26 +126,85 @@ export const games: Game[] = [
     ]
   },
   {
-    id: 'bingo',
-    title: '주제 빙고',
-    description: '개발 관련 4x4 빙고를 종이에 작성하고 2줄 먼저 완성한 팀이 승리하는 게임.',
-    kind: 'bingo',
+    id: 'gwan-sang',
+    title: '관상 퀴즈',
+    description: '',
+    kind: 'choice',
     rules: [
-      '4x4 빙고 카드를 종이에 작성하세요.',
-      '진행자가 주제를 발표하면 해당 단어를 체크합니다.',
-      '먼저 2줄을 완성한 팀이 승리합니다.',
-      '1등 +5점, 2등 +3점은 점수 버튼으로 직접 지급하세요.'
+      'A/B 선택형 문제입니다.',
+      '사회자의 질문을 듣고, 두 선택지 중 하나를 골라주세요!',
     ],
-    scoreIncrement: 0,
-    customButtons: [
-      { label: 'Team +5', value: 5, teamOnly: true },
-      { label: 'Team +3', value: 3, teamOnly: true }
-    ],
+    scoreIncrement: 1,
     questions: [
       {
-        id: 'bingo-1',
-        prompt: '',
-        answer: '1등 +5점, 2등 +3점. 점수 버튼으로 직접 지급하세요.'
+        id: 'gwan-sang-1',
+        prompt: '이 사람이 사용하는 운영체제는?',
+        answer: 'WINDOW',
+        choices: ['WINDOW', 'MAC'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-10',
+        prompt: '이 사람의 MBTI는 무엇으로 시작할까요?',
+        answer: 'E',
+        choices: ['E', 'I'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-3',
+        prompt: '이 사람 주량은?',
+        answer: '로맨스',
+        choices: ['소주 반병 이하', '생각보다 쎄다'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-4',
+        prompt: '이 사람은 좋아하는 사람 앞에서?',
+        answer: '10개 이상',
+        choices: ['말 많아짐', '갑자기 조용해짐'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-5',
+        prompt: '이 사람은 알람 몇 개 맞출 것 같은지?',
+        answer: '1~2개',
+        choices: ['1~2개', '5개 이상'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-6',
+        prompt: '이 사람은 무인도 가면??',
+        answer: 'KPOP',
+        choices: ['적응 잘함', '하루만에 운다'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-7',
+        prompt: '이 사람은 연애하면?',
+        answer: '강아지',
+        choices: ['애교 많음', '츤데레'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-9',
+        prompt: '이 사람은 여행 가면?',
+        answer: 'A. 계획 빡세게',
+        choices: ['계획 빡세게', '무계획 즉흥'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-2',
+        prompt: '이 사람은 카톡 읽으면?',
+        answer: 'YES',
+        choices: ['바로 답장', '생각하다 까먹음'],
+        type: 'choice'
+      },
+      {
+        id: 'gwan-sang-8',
+        prompt: '이 사람은 갑자기 100억 생기면??',
+        answer: '인스타',
+        choices: ['부모님 드린다', '내가 쓴다'],
+        type: 'choice'
       }
     ]
   },
@@ -259,5 +236,29 @@ export const games: Game[] = [
       { id: 'relay-12', type: 'relay', prompt: '비 온 뒤에 땅이 굳는다', answer: '비 온 뒤에 땅이 굳는다' },
       { id: 'relay-13', type: 'relay', prompt: '되로 주고 말로 받는다', answer: '되로 주고 말로 받는다' }
     ]
-  }
+  },
+  // {
+  //   id: 'bingo',
+  //   title: '주제 빙고',
+  //   description: '',
+  //   kind: 'bingo',
+  //   rules: [
+  //     '5분 동안 스케치북에 빙고판을 채워주세요. (4x4)',
+  //     '팀별로 돌아가면서 빙고판의 단어를 부르고, 지워주세요.',
+  //     '2줄을 채우면 “빙고!”를 외쳐주세요!',
+  //     '1등 : 5점, 2등 : 3점!!'
+  //   ],
+  //   scoreIncrement: 0,
+  //   customButtons: [
+  //     { label: 'Team +5', value: 5, teamOnly: true },
+  //     { label: 'Team +3', value: 3, teamOnly: true }
+  //   ],
+  //   questions: [
+  //     {
+  //       id: 'bingo-1',
+  //       prompt: '',
+  //       answer: '1등 +5점, 2등 +3점. 점수 버튼으로 직접 지급하세요.'
+  //     }
+  //   ]
+  // },
 ];

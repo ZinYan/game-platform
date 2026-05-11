@@ -7,7 +7,7 @@ export type Team = {
 export type Question = {
   id: string;
   prompt: string;
-  answer: string;
+  answer: string | { image: string; title: string };
   extra?: string;
   type?: 'text' | 'choice' | 'logo' | 'hint' | 'relay';
   choices?: string[];
