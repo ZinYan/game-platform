@@ -313,7 +313,10 @@ export const games: Game[] = [
       { id: 'relay-10', type: 'relay', prompt: '남의 떡이 더 커 보인다', answer: '남의 떡이 더 커 보인다' },
       { id: 'relay-11', type: 'relay', prompt: '친구 따라 강남 간다', answer: '친구 따라 강남 간다' },
       { id: 'relay-12', type: 'relay', prompt: '비 온 뒤에 땅이 굳는다', answer: '비 온 뒤에 땅이 굳는다' },
-      { id: 'relay-13', type: 'relay', prompt: '되로 주고 말로 받는다', answer: '되로 주고 말로 받는다' }
+      { id: 'relay-13', type: 'relay', prompt: '되로 주고 말로 받는다', answer: '되로 주고 말로 받는다' },
+      { id: 'relay-14', type: 'relay', prompt: '참새가 방앗간을 그저 지나랴', answer: '참새가 방앗간을 그저 지나랴' },
+      { id: 'relay-15', type: 'relay', prompt: '낮말을 새가 듣고, 밤 말은 쥐가 듣는다', answer: '낮말을 새가 듣고, 밤 말은 쥐가 듣는다' },
+
     ]
   },
   // {
