@@ -1,55 +1,55 @@
 import type { Game } from '../types';
 
 export const games: Game[] = [
-  {
-    id: 'euron-quiz',
-    title: 'Euron 퀴즈',
-    description: '',
-    kind: 'quiz',
-    rules: [
-      '각 질문은 순서대로 진행됩니다.',
-      '팀은 오프라인에서 답을 작성하세요.',
-      '정답 공개는 호스트가 Reveal 버튼을 눌러 진행합니다.'
-    ],
-    scoreIncrement: 1,
-    questions: [
-      {
-        id: 'euron-quiz-1',
-        prompt: 'Euron의 지도 교수님 성함은 무엇일까?',
-        answer: '심재형 교수님'
-      },
-      {
-        id: 'euron-quiz-2',
-        prompt: 'Euron의 세션들을 모두 적으시오.',
-        answer: 'Machine Learning (ML), Deep Learning (DL), Research'
-      },
-      {
-        id: 'euron-quiz-3',
-        prompt: '유런 의미',
-        answer: 'Neuron + Networking / You Run / 앞을 향해 달려나가자는 “You Run”'
-      },
-      {
-        id: 'euron-quiz-4',
-        prompt: 'Euron 시작된 연도는?',
-        answer: '2021년 2월 14일'
-      },
-      {
-        id: 'euron-quiz-5',
-        prompt: 'Euron 운영진 팀명을 모두 적어주세요 (총 7팀)',
-        answer: '회장, 부회장, 홍보, 전체운영, ML, DL, Research'
-      },
-      {
-        id: 'euron-quiz-6',
-        prompt: '메인 스폰서십',
-        answer: 'codeit'
-      },
-      {
-        id: 'euron-quiz-7',
-        prompt: '소통 창구 4개',
-        answer: '디스코드, 카카오톡, 네이버 카페, 깃허브'
-      }
-    ]
-  },
+  // {
+  //   id: 'euron-quiz',
+  //   title: 'Euron 퀴즈',
+  //   description: '',
+  //   kind: 'quiz',
+  //   rules: [
+  //     '각 질문은 순서대로 진행됩니다.',
+  //     '팀은 오프라인에서 답을 작성하세요.',
+  //     '정답 공개는 호스트가 Reveal 버튼을 눌러 진행합니다.'
+  //   ],
+  //   scoreIncrement: 1,
+  //   questions: [
+  //     {
+  //       id: 'euron-quiz-1',
+  //       prompt: 'Euron의 지도 교수님 성함은 무엇일까?',
+  //       answer: '심재형 교수님'
+  //     },
+  //     {
+  //       id: 'euron-quiz-2',
+  //       prompt: 'Euron의 세션들을 모두 적으시오.',
+  //       answer: 'Machine Learning (ML), Deep Learning (DL), Research'
+  //     },
+  //     {
+  //       id: 'euron-quiz-3',
+  //       prompt: '유런 의미',
+  //       answer: 'Neuron + Networking / You Run / 앞을 향해 달려나가자는 “You Run”'
+  //     },
+  //     {
+  //       id: 'euron-quiz-4',
+  //       prompt: 'Euron 시작된 연도는?',
+  //       answer: '2021년 2월 14일'
+  //     },
+  //     {
+  //       id: 'euron-quiz-5',
+  //       prompt: 'Euron 운영진 팀명을 모두 적어주세요 (총 7팀)',
+  //       answer: '회장, 부회장, 홍보, 전체운영, ML, DL, Research'
+  //     },
+  //     {
+  //       id: 'euron-quiz-6',
+  //       prompt: '메인 스폰서십',
+  //       answer: 'codeit'
+  //     },
+  //     {
+  //       id: 'euron-quiz-7',
+  //       prompt: '소통 창구 4개',
+  //       answer: '디스코드, 카카오톡, 네이버 카페, 깃허브'
+  //     }
+  //   ]
+  // },
   {
     id: 'gwan-sang',
     title: '관상 퀴즈',
@@ -57,8 +57,7 @@ export const games: Game[] = [
     kind: 'choice',
     rules: [
       'A/B 선택형 문제입니다.',
-      '답은 현장에서 팀이 선택한 후 공개합니다.',
-      '정답은 호스트가 수동으로 점수를 부여합니다.'
+      '답은 현장에서 선택한 후 공개합니다.',
     ],
     scoreIncrement: 1,
     questions: [
@@ -140,9 +139,8 @@ export const games: Game[] = [
     description: '연도별',
     kind: 'song',
     rules: [
-      '노래는 직접 음악으로 재생하세요.',
-      '라운드별로 노래를 듣고 정답을 적습니다.',
-      '정답은 Reveal 버튼으로 공개합니다.'
+      '노래를 잘 듣고 맞춰보세요!',
+      '*짧게 들려줌 주의',
     ],
     scoreIncrement: 1,
     questions: [
