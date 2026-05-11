@@ -61,20 +61,96 @@ export const games: Game[] = [
     ],
     scoreIncrement: 1,
     questions: [
-      { id: 'song-1', prompt: 'Round 1', answer: { image: '/songs/mamamoo.jpg', title: '마마무-데칼코마니' } },
-      { id: 'song-2', prompt: 'Round 2', answer: { image: '/songs/twice.jpg', title: '트와이스-Cheer Up' } },
-      { id: 'song-3', prompt: 'Round 3', answer: { image: '/songs/parkhyoshin.jpg', title: '박효신-야생화' } },
-      { id: 'song-4', prompt: 'Round 6', answer: { image: '/songs/ive.jpg', title: 'IVE-I AM' } },
-      { id: 'song-5', prompt: 'Round 7', answer: { image: '/songs/aespa.jpg', title: 'aespa-Spicy' } },
-      { id: 'song-6', prompt: 'Round 13', answer: { image: '/songs/nmixx.png', title: 'NMIXX-Blue Valentine' } },
-      { id: 'song-7', prompt: 'Round 4', answer: { image: '/songs/iu.jpg', title: 'IU-Palette' } },
-      { id: 'song-8', prompt: 'Round 5', answer: { image: '/songs/blackpink.png', title: '블랙핑크-뚜두뚜두' } },
-      { id: 'song-9', prompt: 'Round 8', answer: { image: '/songs/idle.webp', title: '아이들-TomBoy' } },
-      { id: 'song-10', prompt: 'Round 9', answer: { image: '/songs/seventeen.jpg', title: '세븐틴-손오공' } },
-      { id: 'song-11', prompt: 'Round 10', answer: { image: '/songs/jungkook.jpeg', title: '정국-Seven' } },
-      { id: 'song-12', prompt: 'Round 11', answer: { image: '/songs/melomance.png', title: '멜로망스-사랑인가봐' } },
-      { id: 'song-13', prompt: 'Round 12', answer: { image: '/songs/illit.png', title: 'ILLIT-Not Cute Anymore' } },
-      { id: 'song-14', prompt: 'Round 14', answer: { image: '/songs/jeonsomi.png', title: '전소미-Dumb Dumb' } },
+      {
+        id: 'song-1',
+        prompt: 'Round 0',
+        answer: { image: '/songs/bts.jpg', title: 'BTS - Dynamite' },
+        audio: '/audio/bts-dynamite.m4a'
+      },
+      {
+        id: 'song-2',
+        prompt: 'Round 1',
+        answer: { image: '/songs/mamamoo.jpg', title: 'MAMAMOO - Decalcomanie' },
+        audio: '/audio/mamamoo-decalcomani.m4a'
+      },
+      {
+        id: 'song-3',
+        prompt: 'Round 2',
+        answer: { image: '/songs/twice.jpg', title: 'TWICE - Cheer Up' },
+        audio: '/audio/twice-cheerup.m4a'
+      },
+      {
+        id: 'song-4',
+        prompt: 'Round 3',
+        answer: { image: '/songs/parkhyoshin.jpg', title: 'Park Hyo Shin - Wildflower' },
+        audio: '/audio/parkhyoshin-wildflower.m4a'
+      },
+      {
+        id: 'song-5',
+        prompt: 'Round 4',
+        answer: { image: '/songs/ive.jpg', title: 'IVE - I AM' },
+        audio: '/audio/IVE-IAM.m4a'
+      },
+      {
+        id: 'song-6',
+        prompt: 'Round 5',
+        answer: { image: '/songs/aespa.jpg', title: 'aespa - SPICY' },
+        audio: '/audio/aespa-spicy.m4a'
+      },
+      {
+        id: 'song-7',
+        prompt: 'Round 6',
+        answer: { image: '/songs/nmixx.png', title: 'NMIXX - Blue Valentine' },
+        audio: '/audio/nmixx-bluevalentine.m4a'
+      },
+      {
+        id: 'song-8',
+        prompt: 'Round 7',
+        answer: { image: '/songs/iu.jpg', title: 'IU - Palette' },
+        audio: '/audio/iu-palette.m4a'
+      },
+      {
+        id: 'song-9',
+        prompt: 'Round 8',
+        answer: { image: '/songs/blackpink.png', title: 'BLACKPINK - DDU-DU DDU-DU' },
+        audio: '/audio/blackpink-ddududdudu.m4a'
+      },
+      {
+        id: 'song-10',
+        prompt: 'Round 9',
+        answer: { image: '/songs/idle.webp', title: '(G)I-DLE - Tomboy' },
+        audio: '/audio/gIdle-tomboy.m4a'
+      },
+      {
+        id: 'song-11',
+        prompt: 'Round 10',
+        answer: { image: '/songs/seventeen.jpg', title: 'SEVENTEEN - 손오공' },
+        audio: '/audio/seventeen-sonogong.m4a'
+      },
+      {
+        id: 'song-12',
+        prompt: 'Round 11',
+        answer: { image: '/songs/jungkook.jpeg', title: 'Jungkook - Seven' },
+        audio: '/audio/jungkook-seven.m4a'
+      },
+      {
+        id: 'song-13',
+        prompt: 'Round 12',
+        answer: { image: '/songs/melomance.png', title: 'MeloMance - Love, Maybe' },
+        audio: '/audio/melomance-lovemaybe.m4a'
+      },
+      {
+        id: 'song-14',
+        prompt: 'Round 13',
+        answer: { image: '/songs/illit.png', title: 'ILLIT - not cute anymore' },
+        audio: '/audio/illit-notcuteanymore.m4a'
+      },
+      {
+        id: 'song-15',
+        prompt: 'Round 14',
+        answer: { image: '/songs/jeonsomi.png', title: 'Jeon So-mi - DUMB DUMB' },
+        audio: '/audio/jeonsomi-dumbdumb.m4a'
+      }
     ]
   },
   {
@@ -88,6 +164,7 @@ export const games: Game[] = [
     ],
     scoreIncrement: 1,
     questions: [
+      { id: 'logo-python', prompt: 'Python', answer: 'Python', logo: '/logos/python.jpeg', type: 'logo' },
       { id: 'logo-swift', prompt: 'Swift', answer: 'Swift', logo: '/logos/swift.png', type: 'logo' },
       { id: 'logo-kotlin', prompt: 'Kotlin', answer: 'Kotlin', logo: '/logos/kotlin.png', type: 'logo' },
       { id: 'logo-matlab', prompt: 'Matlab', answer: 'Matlab', logo: '/logos/matlab.png', type: 'logo' },
@@ -113,16 +190,18 @@ export const games: Game[] = [
     ],
     scoreIncrement: 1,
     questions: [
-      { id: 'initial-1', prompt: 'ㄱㅎㅈㅇ', answer: '극한직업' },
-      { id: 'initial-2', prompt: 'ㄱㅅㅊ', answer: '기생충' },
-      { id: 'initial-3', prompt: 'ㅅㄱㅎㄲ', answer: '신과함께' },
-      { id: 'initial-4', prompt: 'ㅇㅁㄴㅍㄹㄷㄹㅇㄴㄷ', answer: '악마는 프라다를 입는다' },
-      { id: 'initial-5', prompt: 'ㅇㄱㅅㄴㄴㅈ', answer: '왕과 사는 남자' },
-      { id: 'initial-6', prompt: 'ㅇㅂㅇㅌㅇ', answer: '아바웃타임' },
-      { id: 'initial-7', prompt: 'ㄷㄱㄹㄹ', answer: '더 글로리' },
-      { id: 'initial-8', prompt: 'ㅅㅈㅇㄱㅌㅇ', answer: '선재업고튀어' },
-      { id: 'initial-9', prompt: 'ㅅㅁㄷㅅㅅㅁㅎㄴ', answer: '스물다섯 스물하나' },
-      { id: 'initial-10', prompt: 'ㅍㅆㅅㅇㅅㄷ', answer: '폭싹 속았수다' }
+      { id: 'initial-0', prompt: 'ㄱㅅㅊ', answer: '기생충' },
+      { id: 'initial-1', prompt: 'ㅅㄱㅎㄲㅈㅇㅂ', answer: '신과함께-죄와 벌' },
+      { id: 'initial-2', prompt: 'ㅇㄱㅅㄴㄴㅈ', answer: '왕과 사는 남자' },
+      { id: 'initial-3', prompt: 'ㅇㅂㅇㅌㅇ', answer: '어바웃타임' },
+      { id: 'initial-4', prompt: 'ㄱㅎㅈㅇ', answer: '극한직업' },
+      { id: 'initial-5', prompt: 'ㄷㄱㄹㄹ', answer: '더 글로리' },
+      { id: 'initial-6', prompt: 'ㅅㅈㅇㄱㅌㅇ', answer: '선재업고튀어' },
+      { id: 'initial-7', prompt: 'ㅅㅁㄷㅅㅅㅁㅎㄴ', answer: '스물다섯 스물하나' },
+      { id: 'initial-8', prompt: 'ㅇㅁㄴㅍㄹㄷㄹㅇㄴㄷ', answer: '악마는 프라다를 입는다' },
+      { id: 'initial-9', prompt: 'ㅍㅆㅅㅇㅅㄷ', answer: '폭싹 속았수다' },
+      { id: 'initial-10', prompt: 'ㅎㄹㅍㅌㅇㅂㅅㅈㄱㅅㄷ', answer: '해리포터와 불사조 기사단' },
+
     ]
   },
   {

@@ -21,6 +21,11 @@ export function QuestionCard({ question, showAnswer }: Props) {
             <>
               <p className="mt-4 text-3xl font-semibold text-white leading-snug">{question.prompt}</p>
               {question.subtitle ? <p className="mt-3 text-slate-400">{question.subtitle}</p> : null}
+              {question.audio ? (
+                <div className="mx-auto mt-6 overflow-hidden rounded-[1.75rem] border border-slate-800 bg-slate-950/80 p-6">
+                  <audio controls src={question.audio} className="w-full" preload="metadata" />
+                </div>
+              ) : null}
             </>
           )}
         </div>
