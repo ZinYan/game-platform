@@ -100,54 +100,54 @@ export const games: Game[] = [
       {
         id: 'song-7',
         prompt: 'Round 6',
-        answer: { image: '/songs/nmixx.png', title: 'NMIXX - Blue Valentine' },
-        audio: '/audio/nmixx-bluevalentine.m4a'
-      },
-      {
-        id: 'song-8',
-        prompt: 'Round 7',
         answer: { image: '/songs/iu.jpg', title: 'IU - Palette' },
         audio: '/audio/iu-palette.m4a'
       },
       {
-        id: 'song-9',
-        prompt: 'Round 8',
+        id: 'song-8',
+        prompt: 'Round 7',
         answer: { image: '/songs/blackpink.png', title: 'BLACKPINK - DDU-DU DDU-DU' },
         audio: '/audio/blackpink-ddududdudu.m4a'
       },
       {
-        id: 'song-10',
-        prompt: 'Round 9',
+        id: 'song-9',
+        prompt: 'Round 8',
         answer: { image: '/songs/idle.webp', title: '(G)I-DLE - Tomboy' },
         audio: '/audio/gIdle-tomboy.m4a'
       },
       {
-        id: 'song-11',
-        prompt: 'Round 10',
+        id: 'song-10',
+        prompt: 'Round 9',
         answer: { image: '/songs/seventeen.jpg', title: 'SEVENTEEN - 손오공' },
         audio: '/audio/seventeen-sonogong.m4a'
       },
       {
-        id: 'song-12',
-        prompt: 'Round 11',
+        id: 'song-11',
+        prompt: 'Round 10',
         answer: { image: '/songs/jungkook.jpeg', title: 'Jungkook - Seven' },
         audio: '/audio/jungkook-seven.m4a'
       },
       {
-        id: 'song-13',
-        prompt: 'Round 12',
+        id: 'song-12',
+        prompt: 'Round 11',
         answer: { image: '/songs/melomance.png', title: 'MeloMance - Love, Maybe' },
         audio: '/audio/melomance-lovemaybe.m4a'
       },
       {
+        id: 'song-13',
+        prompt: 'Round 12(1초)',
+        answer: { image: '/songs/nmixx.png', title: 'NMIXX - Blue Valentine' },
+        audio: '/audio/nmixx-bluevalentine.m4a'
+      },
+      {
         id: 'song-14',
-        prompt: 'Round 13',
+        prompt: 'Round 13(1초)',
         answer: { image: '/songs/illit.png', title: 'ILLIT - not cute anymore' },
         audio: '/audio/illit-notcuteanymore.m4a'
       },
       {
         id: 'song-15',
-        prompt: 'Round 14',
+        prompt: 'Round 14(1초)',
         answer: { image: '/songs/jeonsomi.png', title: 'Jeon So-mi - DUMB DUMB' },
         audio: '/audio/jeonsomi-dumbdumb.m4a'
       }
@@ -170,7 +170,7 @@ export const games: Game[] = [
       { id: 'logo-matlab', prompt: 'Matlab', answer: 'Matlab', logo: '/logos/matlab.png', type: 'logo' },
       { id: 'logo-scala', prompt: 'Scala', answer: 'Scala', logo: '/logos/scala.png', type: 'logo' },
       { id: 'logo-cursor-ai', prompt: 'Cursor AI', answer: 'Cursor AI', logo: '/logos/cursor.png', type: 'logo' },
-      { id: 'logo-jasper-ai', prompt: 'Jasper AI', answer: 'Jasper AI', logo: '/logos/jasper.jpeg', type: 'logo' },
+      // { id: 'logo-jasper-ai', prompt: 'Jasper AI', answer: 'Jasper AI', logo: '/logos/jasper.jpeg', type: 'logo' },
       { id: 'logo-copilot', prompt: 'Microsoft Copilot', answer: 'Microsoft Copilot', logo: '/logos/copilot.png', type: 'logo' },
       { id: 'logo-hugging-face', prompt: 'Hugging Face', answer: 'Hugging Face', logo: '/logos/huggingface.png', type: 'logo' },
       { id: 'logo-tensorflow', prompt: 'TensorFlow', answer: 'TensorFlow', logo: '/logos/tensorflow.png', type: 'logo' },
@@ -219,70 +219,70 @@ export const games: Game[] = [
         id: 'gwan-sang-1',
         prompt: '이 사람이 사용하는 운영체제는?',
         answer: 'WINDOW',
-        choices: ['WINDOW', 'MAC'],
+        choices: ['A. WINDOW', 'B. MAC'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-10',
         prompt: '이 사람의 MBTI는 무엇으로 시작할까요?',
         answer: 'E',
-        choices: ['E', 'I'],
+        choices: ['A. E', 'B. I'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-3',
         prompt: '이 사람 주량은?',
         answer: '로맨스',
-        choices: ['소주 반병 이하', '생각보다 쎄다'],
+        choices: ['A. 소주 1병 이하', 'B. 생각보다 쎄다'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-4',
         prompt: '이 사람은 좋아하는 사람 앞에서?',
         answer: '10개 이상',
-        choices: ['말 많아짐', '갑자기 조용해짐'],
+        choices: ['A. 말 많아짐', 'B. 갑자기 조용해짐'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-5',
-        prompt: '이 사람은 알람 몇 개 맞출 것 같은지?',
+        prompt: '이 사람은 보통 알람 몇 개 만에 일어날 것 같은지?',
         answer: '1~2개',
-        choices: ['1~2개', '5개 이상'],
+        choices: ['A. 1~4개', 'B. 5개 이상'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-6',
         prompt: '이 사람은 무인도 가면??',
         answer: 'KPOP',
-        choices: ['적응 잘함', '하루만에 운다'],
+        choices: ['A. 적응 잘함', 'B. 하루만에 운다'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-7',
         prompt: '이 사람은 연애하면?',
         answer: '강아지',
-        choices: ['애교 많음', '츤데레'],
+        choices: ['A. 애교 많음', 'B. 츤데레'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-9',
         prompt: '이 사람은 여행 가면?',
         answer: 'A. 계획 빡세게',
-        choices: ['계획 빡세게', '무계획 즉흥'],
+        choices: ['A. 계획 빡세게', 'B. 무계획 즉흥'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-2',
         prompt: '이 사람은 카톡 읽으면?',
         answer: 'YES',
-        choices: ['바로 답장', '생각하다 까먹음'],
+        choices: ['A. 바로 답장', 'B. 생각하다 까먹음'],
         type: 'choice'
       },
       {
         id: 'gwan-sang-8',
         prompt: '이 사람은 갑자기 100억 생기면??',
         answer: '인스타',
-        choices: ['부모님 드린다', '내가 쓴다'],
+        choices: ['A. 부모님 드린다', 'B. 내가 쓴다'],
         type: 'choice'
       }
     ]
